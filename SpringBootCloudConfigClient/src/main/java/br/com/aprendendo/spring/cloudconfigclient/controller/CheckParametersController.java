@@ -15,8 +15,8 @@ public class CheckParametersController {
 	@Value("${parametro-teste}")
 	private String parametroTeste;
 	
-	private @Autowired 
-	Environment environment;
+	@Autowired 
+	private Environment environment;
 	
 	@Autowired
 	private QualquerProperties qualquerProperties;
