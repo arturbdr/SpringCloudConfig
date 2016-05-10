@@ -19,4 +19,4 @@ Para testes, serão expostos dois serviços RESTful:
 http://localhost:8002/getTesteProperties -- recupera o valor do parâmetro 'parametroTeste'
 http://localhost:8002/parameter/{parameterName} -- recupera o valor do parâmetro dinamicamente (informado a partir da URL)
 
-
+.
