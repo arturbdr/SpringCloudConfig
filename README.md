@@ -14,9 +14,5 @@ recuperando os parâmetros e disponibilizando para a Aplicação.
 Sendo uma aplicação Spring, os valores dos parâmetros podem ser recuperados atráves da interface "org.springframework.core.env.Environment".
 O uso dessa inteface pode ser visto no controller CheckParametersController disponivel nessa aplicação.
 
-Para testes, serão expostos dois serviços RESTful:
-
-http://localhost:8002/getTesteProperties -- recupera o valor do parâmetro 'parametroTeste'
-http://localhost:8002/parameter/{parameterName} -- recupera o valor do parâmetro dinamicamente (informado a partir da URL)
-
-.
+Verificar os serviços disponibilizados e respectiva documentação em (após inicializar os projetos) :
+http://localhost:8002/swagger-ui.html
