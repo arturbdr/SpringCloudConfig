@@ -1,0 +1,8 @@
+spring:
+  application.name: sample-config-client-project
+  cloud.config:
+    uri: http://localhost:8001
+    fail-fast: true
+
+server.port: 8002
+sample: This is the Key Value Sample inside of this project

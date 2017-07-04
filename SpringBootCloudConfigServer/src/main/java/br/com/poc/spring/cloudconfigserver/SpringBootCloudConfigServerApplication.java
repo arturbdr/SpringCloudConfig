@@ -1,4 +1,4 @@
-package br.com.aprendendo.spring.cloudconfigserver;
+package br.com.poc.spring.cloudconfigserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
